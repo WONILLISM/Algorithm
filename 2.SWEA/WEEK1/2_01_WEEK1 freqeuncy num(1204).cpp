@@ -21,7 +21,6 @@ void Process() {
 			Max_Score = i;
 		}
 	}
-	
 }
 int main() {
 	freopen("D2(1204).in.txt", "r", stdin);
