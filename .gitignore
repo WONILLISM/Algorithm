@@ -259,3 +259,11 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/4.CodeUp/100Problems
+/1.baekjoon/01_BOJ_Step
+
+/2.SWEA
+/3.programmers/2018kakaCodingTest
+*.vcxproj
+*.filters
+*.sln
