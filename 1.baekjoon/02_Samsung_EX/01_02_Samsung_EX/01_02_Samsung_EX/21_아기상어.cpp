@@ -12,7 +12,7 @@ int dx[4] = { -1,0,0,1 };
 int dy[4] = { 0,-1,1,0 };
 typedef struct Shark{
 	int x, y, d;
-	//Min heap 거리(d) > y > x
+	//Min heap 움직인 거리(d) > y > x
 	bool operator < (const Shark &t)const {
 		if (d == t.d) {
 			if (y == t.y)return x > t.x;

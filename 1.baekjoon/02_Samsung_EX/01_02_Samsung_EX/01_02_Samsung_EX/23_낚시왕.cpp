@@ -30,7 +30,7 @@ void Catch(int t) {
 //d: 0위 1아래 2오른 3왼
 void MoveShark() {
 	Shark tmp[MAX][MAX];
-
+	 
 }
 void Process() {
 	for (int t = 0; t < C; t++) {

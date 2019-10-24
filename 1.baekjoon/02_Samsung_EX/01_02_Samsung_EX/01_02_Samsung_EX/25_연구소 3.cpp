@@ -20,8 +20,6 @@ void Input() {
 		}
 	}
 }
-//빈칸 0 벽 1 비활성화 바이러스 2 활성화 바이러스 3
-
 void Process() {
 	int time = 0, a = 0;
 	while (!Q.empty()) {

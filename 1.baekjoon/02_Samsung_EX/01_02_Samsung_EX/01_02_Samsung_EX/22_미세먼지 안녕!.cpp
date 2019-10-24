@@ -77,32 +77,32 @@ void Process() {
 				if (Map[a][b] > 0)Q.push({ b,a ,Map[a][b] });
 			}
 		}
-		for (int i = 0; i < R; i++) {
-			for (int j = 0; j < C; j++) {
-				printf("%3d", Map[i][j]);
-			}
-			printf("\n");
-		}
-		printf("\n");
+		//for (int i = 0; i < R; i++) {
+		//	for (int j = 0; j < C; j++) {
+		//		printf("%3d", Map[i][j]);
+		//	}
+		//	printf("\n");
+		//}
+		//printf("\n");
 		Spread();
-		cout << "확산\n";
-		for (int i = 0; i < R; i++) {
-			for (int j = 0; j < C; j++) {
-				printf("%3d", Map[i][j]);
-			}
-			printf("\n");
-		}
-		printf("\n");
+		//cout << "확산\n";
+		//for (int i = 0; i < R; i++) {
+		//	for (int j = 0; j < C; j++) {
+		//		printf("%3d", Map[i][j]);
+		//	}
+		//	printf("\n");
+		//}
+		//printf("\n");
 		ActClear(1, Clear[1].x, Clear[1].y + 1, 0);
 		ActClear(0, Clear[0].x, Clear[0].y - 1, 0);
-		cout << "공기청정기\n";
-		for (int i = 0; i < R; i++) {
-			for (int j = 0; j < C; j++) {
-				printf("%3d", Map[i][j]);
-			}
-			printf("\n");
-		}
-		printf("\n");
+		//cout << "공기청정기\n";
+		//for (int i = 0; i < R; i++) {
+		//	for (int j = 0; j < C; j++) {
+		//		printf("%3d", Map[i][j]);
+		//	}
+		//	printf("\n");
+		//}
+		//printf("\n");
 	}
 	for (int i = 0; i < R; i++)
 		for (int j = 0; j < C; j++)
