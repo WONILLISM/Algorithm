@@ -16,8 +16,7 @@ int solution(vector<int> budgets, int M) {
 	sort(budgets.begin(), budgets.end());
 	for (int i = 0; i < size; i++)
 		sum += budgets[i];
-	if (sum < M)return budgets[size - 1];
-	long long avg = sum / size;
+	if (sum <= M)return budgets[size - 1];
 	long long sum1 = 0;
 	long long avg1 = M / size;
 
