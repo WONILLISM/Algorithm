@@ -12,7 +12,10 @@ Pos Q[MAX*MAX];
 int f, r;
 void push(int x, int y) { Q[r++] = { x,y }; }
 Pos pop() { return Q[f++]; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> c709b4320d5428a0bce84aae4e0c6f9471297e54
 void Init() {
 	f = r = ans = 0;
 	for (int i = 0; i < MAX; i++) {
@@ -22,6 +25,10 @@ void Init() {
 		}
 	}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c709b4320d5428a0bce84aae4e0c6f9471297e54
 int solution(int n,int m) {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
