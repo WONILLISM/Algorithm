@@ -8,6 +8,7 @@ int Q[101];
 int f, r;
 void push(int x) { Q[r++] = x; }
 int pop() { return Q[f++]; }
+
 int solution(int n) {
 	int cur = 1;
 	visit[cur] = 1;
