@@ -1,5 +1,8 @@
 # [백준 단계별로풀기](https://www.acmicpc.net/step)
-
+  
+<details>  
+<summary> STEP 01 / STEP02 </summary>   
+  
 | STEP01 | CODE | STEP02 | CODE |
 |-----------------------|------|-----------------------|------|
 | [01. Hello World](https://www.acmicpc.net/problem/2557)| [cpp](01_baekjoon/01_BOJ_Step/Step01/01_2557.cpp) | [01. 두 수 비교하기](https://www.acmicpc.net/problem/1330) | [cpp](01_baekjoon/01_BOJ_Step/Step02/01_1330.cpp) |
@@ -13,8 +16,10 @@
 | [09. 사칙연산](https://www.acmicpc.net/problem/10869) | [cpp](01_baekjoon/01_BOJ_Step/Step01/09_10869.cpp) |  |  |
 | [10. 나머지](https://www.acmicpc.net/problem/10430) | [cpp](01_baekjoon/01_BOJ_Step/Step01/10_10430.cpp) |  |  |
 | [11. 곱셈](https://www.acmicpc.net/problem/2588) | [cpp](01_baekjoon/01_BOJ_Step/Step01/11_2588.cpp) |  |  |  
+</details>  
   
-  
+<details>  
+<summary> STEP 03 / STEP04 </summary> 
 | STEP03 | CODE | STEP04 | CODE |
 |-----------------------|------|-----------------------|------|
 | [01. 구구단](https://www.acmicpc.net/problem/2739) | [cpp](01_baekjoon/01_BOJ_Step/Step03/01_2739.cpp) | [01. A+B -5](https://www.acmicpc.net/problem/10952) | [cpp](01_baekjoon/01_BOJ_Step/Step04/Step04/01_10952.cpp) |
@@ -28,8 +33,10 @@
 | [09. 별찍기 -1](https://www.acmicpc.net/problem/2438) | [cpp](01_baekjoon/01_BOJ_Step/Step03/09_2438.cpp) |  |  |
 | [10. 별찍기 -2](https://www.acmicpc.net/problem/2439) | [cpp](01_baekjoon/01_BOJ_Step/Step03/10_2439.cpp) |  |  |
 | [11. X보다 작은 수](https://www.acmicpc.net/problem/10871) | [cpp](01_baekjoon/01_BOJ_Step/Step03/11_10871.cpp) |  |  |  
+</details>  
   
-  
+<details>  
+<summary> STEP 05 / STEP06 </summary> 
 | STEP05 | CODE | STEP06 | CODE |
 |-----------------------|------|-----------------------|------|  
 | [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/01_10818.cpp) | [01. 정수 N개의 합](https://www.acmicpc.net/problem/15596) | [cpp](01_baekjoon/01_BOJ_Step/Step06/Step06/01_15596.cpp) |
@@ -40,8 +47,10 @@
 | [06. 평균](https://www.acmicpc.net/problem/1546) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/06_1546.cpp) |
 | [07. OX 퀴즈](https://www.acmicpc.net/problem/8958) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/07_8958.cpp) |
 | [08. 평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/08_4344.cpp) |  
+</details>  
   
-  
+<details>  
+<summary> STEP 07 / STEP08 </summary> 
 | STEP07 | CODE | STEP08 | CODE |
 |-----------------------|------|-----------------------|------|  
 | [01. 아스키코드](https://www.acmicpc.net/problem/11654) | [cpp](01_baekjoon/01_BOJ_Step/Step07/01_11654.cpp) | [01. 손익분기점](https://www.acmicpc.net/problem/1712) | [cpp](01_baekjoon/01_BOJ_Step/Step08/01_1712.cpp) |
@@ -53,4 +62,5 @@
 | [07. 상수](https://www.acmicpc.net/problem/2908) | [cpp](01_baekjoon/01_BOJ_Step/Step07/07_2908.cpp) | [07. 부녀회장이 될테야](https://www.acmicpc.net/problem/2775) | [cpp](01_baekjoon/01_BOJ_Step/Step08/07_2775.cpp) |
 | [08. 다이얼](https://www.acmicpc.net/problem/5622) | [cpp](01_baekjoon/01_BOJ_Step/Step07/08_5622.cpp) | [08. Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) | [cpp](01_baekjoon/01_BOJ_Step/Step08/08_1011.cpp) |
 | [09. 크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | [cpp](01_baekjoon/01_BOJ_Step/Step07/09_2941.cpp) |
-| [10. 그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [cpp](01_baekjoon/01_BOJ_Step/Step07/10_1316.cpp) |
+| [10. 그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [cpp](01_baekjoon/01_BOJ_Step/Step07/10_1316.cpp) |  
+</details>
