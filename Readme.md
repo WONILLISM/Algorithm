@@ -1,7 +1,7 @@
 # [백준 단계별로풀기](https://www.acmicpc.net/step)
 
 | STEP01 | CODE | STEP02 | CODE |
-|--------|------|--------|------|
+|------------------|------|------------------|------|
 | [01. Hello World](https://www.acmicpc.net/problem/2557)| [cpp](01_baekjoon/01_BOJ_Step/Step01/01_2557.cpp) | [01. 두 수 비교하기](https://www.acmicpc.net/problem/1330) | [cpp](01_baekjoon/01_BOJ_Step/Step02/01_1330.cpp) |
 | [02. We love Kriii](https://www.acmicpc.net/problem/10718)| [cpp](01_baekjoon/01_BOJ_Step/Step01/02_10718.cpp) |  [02. 시험 성적](https://www.acmicpc.net/problem/9498) | [cpp](01_baekjoon/01_BOJ_Step/Step02/02_9498.cpp) |
 | [03. 고양이](https://www.acmicpc.net/problem/10171) | [cpp](01_baekjoon/01_BOJ_Step/Step01/03_10171.cpp) |  [03. 윤년](https://www.acmicpc.net/problem/2753) | [cpp](01_baekjoon/01_BOJ_Step/Step02/03_2753.cpp) |
@@ -16,7 +16,7 @@
   
   
 | STEP03 | CODE | STEP04 | CODE |
-|--------|------|--------|------|  
+|------------------|------|------------------|------|
 | [01. 구구단](https://www.acmicpc.net/problem/2739) | [cpp](01_baekjoon/01_BOJ_Step/Step03/01_2739.cpp) |  |
 | [02. A+B - 3](https://www.acmicpc.net/problem/10950) | [cpp](01_baekjoon/01_BOJ_Step/Step03/02_10950.cpp) |  |
 | [03. 합](https://www.acmicpc.net/problem/8393) | [cpp](01_baekjoon/01_BOJ_Step/Step03/03_8393.cpp) |  |
