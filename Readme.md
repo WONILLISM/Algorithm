@@ -27,4 +27,16 @@
 | [08. A+B - 8](https://www.acmicpc.net/problem/11022) | [cpp](01_baekjoon/01_BOJ_Step/Step03/08_11022.cpp) |  |  |
 | [09. 별찍기 -1](https://www.acmicpc.net/problem/2438) | [cpp](01_baekjoon/01_BOJ_Step/Step03/09_2438.cpp) |  |  |
 | [10. 별찍기 -2](https://www.acmicpc.net/problem/2439) | [cpp](01_baekjoon/01_BOJ_Step/Step03/10_2439.cpp) |  |  |
-| [11. X보다 작은 수](https://www.acmicpc.net/problem/10871) | [cpp](01_baekjoon/01_BOJ_Step/Step03/11_10871.cpp) |  |  |
+| [11. X보다 작은 수](https://www.acmicpc.net/problem/10871) | [cpp](01_baekjoon/01_BOJ_Step/Step03/11_10871.cpp) |  |  |  
+  
+  
+| STEP05 | CODE | STEP06 | CODE |
+|-----------------------|------|-----------------------|------|  
+| [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/01_10818.cpp) |
+| [02. 최댓값](https://www.acmicpc.net/problem/2562) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/02_2562.cpp) |
+| [03. 음계](https://www.acmicpc.net/problem/2920) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/03_2920.cpp) |
+| [04. 숫자의 개수](https://www.acmicpc.net/problem/2577) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/04_2577.cpp) |
+| [05. 나머지](https://www.acmicpc.net/problem/3052) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/05_3052.cpp) |
+| [06. 평균](https://www.acmicpc.net/problem/1546) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/06_1546.cpp) |
+| [07. OX 퀴즈](https://www.acmicpc.net/problem/8958) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/07_8958.cpp) |
+| [08. 평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/08_4344.cpp) |
