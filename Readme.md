@@ -19,7 +19,8 @@
 </details>  
   
 <details>  
-<summary> STEP 03 / STEP04 </summary> 
+<summary> STEP 03 / STEP04 </summary>  
+  
 | STEP03 | CODE | STEP04 | CODE |
 |-----------------------|------|-----------------------|------|
 | [01. 구구단](https://www.acmicpc.net/problem/2739) | [cpp](01_baekjoon/01_BOJ_Step/Step03/01_2739.cpp) | [01. A+B -5](https://www.acmicpc.net/problem/10952) | [cpp](01_baekjoon/01_BOJ_Step/Step04/Step04/01_10952.cpp) |
@@ -36,7 +37,8 @@
 </details>  
   
 <details>  
-<summary> STEP 05 / STEP06 </summary> 
+<summary> STEP 05 / STEP06 </summary>  
+  
 | STEP05 | CODE | STEP06 | CODE |
 |-----------------------|------|-----------------------|------|  
 | [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/01_10818.cpp) | [01. 정수 N개의 합](https://www.acmicpc.net/problem/15596) | [cpp](01_baekjoon/01_BOJ_Step/Step06/Step06/01_15596.cpp) |
@@ -50,7 +52,8 @@
 </details>  
   
 <details>  
-<summary> STEP 07 / STEP08 </summary> 
+<summary> STEP 07 / STEP08 </summary>  
+  
 | STEP07 | CODE | STEP08 | CODE |
 |-----------------------|------|-----------------------|------|  
 | [01. 아스키코드](https://www.acmicpc.net/problem/11654) | [cpp](01_baekjoon/01_BOJ_Step/Step07/01_11654.cpp) | [01. 손익분기점](https://www.acmicpc.net/problem/1712) | [cpp](01_baekjoon/01_BOJ_Step/Step08/01_1712.cpp) |
