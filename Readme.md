@@ -32,9 +32,9 @@
   
 | STEP05 | CODE | STEP06 | CODE |
 |-----------------------|------|-----------------------|------|  
-| [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/01_10818.cpp) |
-| [02. 최댓값](https://www.acmicpc.net/problem/2562) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/02_2562.cpp) |
-| [03. 음계](https://www.acmicpc.net/problem/2920) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/03_2920.cpp) |
+| [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/01_10818.cpp) | [01. 정수 N개의 합](https://www.acmicpc.net/problem/15596) | [cpp](01_baekjoon/01_BOJ_Step/Step06/Step06/01_15596.cpp) |
+| [02. 최댓값](https://www.acmicpc.net/problem/2562) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/02_2562.cpp) | [02. 셀프 넘버](https://www.acmicpc.net/problem/4673) | [cpp](01_baekjoon/01_BOJ_Step/Step06/Step06/02_4673.cpp) |
+| [03. 음계](https://www.acmicpc.net/problem/2920) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/03_2920.cpp) | [03. 한수](https://www.acmicpc.net/problem/1065) | [cpp](01_baekjoon/01_BOJ_Step/Step06/Step06/03_1065.cpp) |
 | [04. 숫자의 개수](https://www.acmicpc.net/problem/2577) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/04_2577.cpp) |
 | [05. 나머지](https://www.acmicpc.net/problem/3052) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/05_3052.cpp) |
 | [06. 평균](https://www.acmicpc.net/problem/1546) | [cpp](01_baekjoon/01_BOJ_Step/Step05/Step05/06_1546.cpp) |
