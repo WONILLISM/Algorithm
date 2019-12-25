@@ -44,13 +44,13 @@
   
 | STEP07 | CODE | STEP08 | CODE |
 |-----------------------|------|-----------------------|------|  
-| [01. 아스키코드](https://www.acmicpc.net/problem/11654) | [cpp](01_baekjoon/01_BOJ_Step/Step07/01_11654.cpp) |
-| [02. 숫자의 합](https://www.acmicpc.net/problem/11720) | [cpp](01_baekjoon/01_BOJ_Step/Step07/02_11720.cpp) |
-| [03. 알파벳 찾기](https://www.acmicpc.net/problem/10809) | [cpp](01_baekjoon/01_BOJ_Step/Step07/03_10809.cpp) |
-| [04. 문자열 반복](https://www.acmicpc.net/problem/2675) | [cpp](01_baekjoon/01_BOJ_Step/Step07/04_2675.cpp) |
-| [05. 단어 공부](https://www.acmicpc.net/problem/1157) | [cpp](01_baekjoon/01_BOJ_Step/Step07/05_1157.cpp) |
-| [06. 단어의 개수](https://www.acmicpc.net/problem/1152) | [cpp](01_baekjoon/01_BOJ_Step/Step07/06_1152.cpp) |
-| [07. 상수](https://www.acmicpc.net/problem/2908) | [cpp](01_baekjoon/01_BOJ_Step/Step07/07_2908.cpp) |
-| [08. 다이얼](https://www.acmicpc.net/problem/5622) | [cpp](01_baekjoon/01_BOJ_Step/Step07/08_5622.cpp) |
+| [01. 아스키코드](https://www.acmicpc.net/problem/11654) | [cpp](01_baekjoon/01_BOJ_Step/Step07/01_11654.cpp) | [01. 손익분기점](https://www.acmicpc.net/problem/1712) | [cpp](01_baekjoon/01_BOJ_Step/Step08/01_1712.cpp) |
+| [02. 숫자의 합](https://www.acmicpc.net/problem/11720) | [cpp](01_baekjoon/01_BOJ_Step/Step07/02_11720.cpp) | [02. 설탕 배달](https://www.acmicpc.net/problem/2839) | [cpp](01_baekjoon/01_BOJ_Step/Step08/02_2839.cpp) |
+| [03. 알파벳 찾기](https://www.acmicpc.net/problem/10809) | [cpp](01_baekjoon/01_BOJ_Step/Step07/03_10809.cpp) | [03. 벌집](https://www.acmicpc.net/problem/2292) | [cpp](01_baekjoon/01_BOJ_Step/Step08/03_2292.cpp) |
+| [04. 문자열 반복](https://www.acmicpc.net/problem/2675) | [cpp](01_baekjoon/01_BOJ_Step/Step07/04_2675.cpp) | [04. 분수찾기](https://www.acmicpc.net/problem/1193) | [cpp](01_baekjoon/01_BOJ_Step/Step08/04_1193.cpp) |
+| [05. 단어 공부](https://www.acmicpc.net/problem/1157) | [cpp](01_baekjoon/01_BOJ_Step/Step07/05_1157.cpp) | [05. 달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869) | [cpp](01_baekjoon/01_BOJ_Step/Step08/05_2869.cpp) |
+| [06. 단어의 개수](https://www.acmicpc.net/problem/1152) | [cpp](01_baekjoon/01_BOJ_Step/Step07/06_1152.cpp) | [06. ACM 호텔](https://www.acmicpc.net/problem/10250) | [cpp](01_baekjoon/01_BOJ_Step/Step08/06_10250.cpp) |
+| [07. 상수](https://www.acmicpc.net/problem/2908) | [cpp](01_baekjoon/01_BOJ_Step/Step07/07_2908.cpp) | [07. 부녀회장이 될테야](https://www.acmicpc.net/problem/2775) | [cpp](01_baekjoon/01_BOJ_Step/Step08/07_2775.cpp) |
+| [08. 다이얼](https://www.acmicpc.net/problem/5622) | [cpp](01_baekjoon/01_BOJ_Step/Step07/08_5622.cpp) | [08. Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) | [cpp](01_baekjoon/01_BOJ_Step/Step08/08_1011.cpp) |
 | [09. 크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | [cpp](01_baekjoon/01_BOJ_Step/Step07/09_2941.cpp) |
 | [10. 그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [cpp](01_baekjoon/01_BOJ_Step/Step07/10_1316.cpp) |
