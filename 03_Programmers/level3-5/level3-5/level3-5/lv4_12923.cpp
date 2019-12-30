@@ -1,4 +1,3 @@
-/* 숫자 블럭 */
 #include<cstdio>
 #include<iostream>
 #include<vector>
