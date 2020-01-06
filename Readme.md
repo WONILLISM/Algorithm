@@ -74,14 +74,14 @@
   
 | STEP09 | CODE | STEP10 | CODE |
 |-----------------------|------|-----------------------|------|  
-| [01. 소수 찾기](https://www.acmicpc.net/problem/11654) | [cpp](01_baekjoon/01_BOJ_Step/Step07/01_11654.cpp) | 
-| [02. 소수](https://www.acmicpc.net/problem/11720) | [cpp](01_baekjoon/01_BOJ_Step/Step07/02_11720.cpp) | [02. 
-| [03. 소수 구하기](https://www.acmicpc.net/problem/10809) | [cpp](01_baekjoon/01_BOJ_Step/Step07/03_10809.cpp) | 
-| [04. 베르트랑 공준](https://www.acmicpc.net/problem/2675) | [cpp](01_baekjoon/01_BOJ_Step/Step07/04_2675.cpp) | 
-| [05. 골드바흐의 추측](https://www.acmicpc.net/problem/1157) | [cpp](01_baekjoon/01_BOJ_Step/Step07/05_1157.cpp) | 
-| [06. 직사각형에서 탈출](https://www.acmicpc.net/problem/1152) | [cpp](01_baekjoon/01_BOJ_Step/Step07/06_1152.cpp) |
-| [07. 네 번째 점](https://www.acmicpc.net/problem/2908) | [cpp](01_baekjoon/01_BOJ_Step/Step07/07_2908.cpp) |
-| [08. 직각삼각형](https://www.acmicpc.net/problem/5622) | [cpp](01_baekjoon/01_BOJ_Step/Step07/08_5622.cpp) | 
-| [09. 택시 기하학](https://www.acmicpc.net/problem/2941) | [cpp](01_baekjoon/01_BOJ_Step/Step07/09_2941.cpp) |
-| [10. 터렛](https://www.acmicpc.net/problem/1316) | [cpp](01_baekjoon/01_BOJ_Step/Step07/10_1316.cpp) |  
+| [01. 소수 찾기](https://www.acmicpc.net/problem/1978) | [cpp](01_baekjoon/01_BOJ_Step/Step09/01_1978.cpp) | [01.  팩토리얼](https://www.acmicpc.net/problem/10872) | [cpp](01_baekjoon/01_BOJ_Step/Step10/01_10872.cpp) | 
+| [02. 소수](https://www.acmicpc.net/problem/2581) | [cpp](01_baekjoon/01_BOJ_Step/Step09/02_2581.cpp) | [02. 피보나치 수 5](https://www.acmicpc.net/problem/10870) | [cpp](01_baekjoon/01_BOJ_Step/Step10/02_10870.cpp) | 
+| [03. 소수 구하기](https://www.acmicpc.net/problem/1929) | [cpp](01_baekjoon/01_BOJ_Step/Step09/03_1929.cpp) | [03. 별 찍기 - 10](https://www.acmicpc.net/problem/2447) | [cpp](01_baekjoon/01_BOJ_Step/Step10/03_2447.cpp) | 
+| [04. 베르트랑 공준](https://www.acmicpc.net/problem/4948) | [cpp](01_baekjoon/01_BOJ_Step/Step09/04_4948.cpp) | [04. 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | [cpp](01_baekjoon/01_BOJ_Step/Step10/04_11729.cpp) | 
+| [05. 골드바흐의 추측](https://www.acmicpc.net/problem/9020) | [cpp](01_baekjoon/01_BOJ_Step/Step09/9020.cpp) | 
+| [06. 직사각형에서 탈출](https://www.acmicpc.net/problem/1085) | [cpp](01_baekjoon/01_BOJ_Step/Step09/06_1085.cpp) |
+| [07. 네 번째 점](https://www.acmicpc.net/problem/3009) | [cpp](01_baekjoon/01_BOJ_Step/Step09/07_3009.cpp) |
+| [08. 직각삼각형](https://www.acmicpc.net/problem/4153) | [cpp](01_baekjoon/01_BOJ_Step/Step09/08_4153.cpp) | 
+| [09. 택시 기하학](https://www.acmicpc.net/problem/3053) | [cpp](01_baekjoon/01_BOJ_Step/Step09/09_3053.cpp) |
+| [10. 터렛](https://www.acmicpc.net/problem/1002) | [cpp](01_baekjoon/01_BOJ_Step/Step09/10_1002.cpp) |  
 </details>
