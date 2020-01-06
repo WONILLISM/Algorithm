@@ -7,7 +7,7 @@
 #define ll long long
 using namespace std;
 int M, N, Sum, Min;
-
+bool Num[10001];
 void solution_2581();
 int main() {
 	solution_2581();
