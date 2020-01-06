@@ -1,7 +1,7 @@
 # [백준 단계별로풀기](https://www.acmicpc.net/step)
   
 <details>  
-<summary> STEP 01 / STEP02 </summary>   
+<summary> STEP01 / STEP02 </summary>   
   
 | STEP01 | CODE | STEP02 | CODE |
 |-----------------------|------|-----------------------|------|
@@ -19,7 +19,7 @@
 </details>  
   
 <details>  
-<summary> STEP 03 / STEP04 </summary>  
+<summary> STEP03 / STEP04 </summary>  
   
 | STEP03 | CODE | STEP04 | CODE |
 |-----------------------|------|-----------------------|------|
@@ -37,7 +37,7 @@
 </details>  
   
 <details>  
-<summary> STEP 05 / STEP06 </summary>  
+<summary> STEP05 / STEP06 </summary>  
   
 | STEP05 | CODE | STEP06 | CODE |
 |-----------------------|------|-----------------------|------|  
@@ -52,7 +52,7 @@
 </details>  
   
 <details>  
-<summary> STEP 07 / STEP08 </summary>  
+<summary> STEP07 / STEP08 </summary>  
   
 | STEP07 | CODE | STEP08 | CODE |
 |-----------------------|------|-----------------------|------|  
@@ -66,4 +66,22 @@
 | [08. 다이얼](https://www.acmicpc.net/problem/5622) | [cpp](01_baekjoon/01_BOJ_Step/Step07/08_5622.cpp) | [08. Fly me to the Alpha Centauri](https://www.acmicpc.net/problem/1011) | [cpp](01_baekjoon/01_BOJ_Step/Step08/08_1011.cpp) |
 | [09. 크로아티아 알파벳](https://www.acmicpc.net/problem/2941) | [cpp](01_baekjoon/01_BOJ_Step/Step07/09_2941.cpp) |
 | [10. 그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [cpp](01_baekjoon/01_BOJ_Step/Step07/10_1316.cpp) |  
+</details>
+  
+  
+<details>  
+<summary> STEP09 / STEP10 </summary>  
+  
+| STEP09 | CODE | STEP10 | CODE |
+|-----------------------|------|-----------------------|------|  
+| [01. 소수 찾기](https://www.acmicpc.net/problem/11654) | [cpp](01_baekjoon/01_BOJ_Step/Step07/01_11654.cpp) | 
+| [02. 소수](https://www.acmicpc.net/problem/11720) | [cpp](01_baekjoon/01_BOJ_Step/Step07/02_11720.cpp) | [02. 
+| [03. 소수 구하기](https://www.acmicpc.net/problem/10809) | [cpp](01_baekjoon/01_BOJ_Step/Step07/03_10809.cpp) | 
+| [04. 베르트랑 공준](https://www.acmicpc.net/problem/2675) | [cpp](01_baekjoon/01_BOJ_Step/Step07/04_2675.cpp) | 
+| [05. 골드바흐의 추측](https://www.acmicpc.net/problem/1157) | [cpp](01_baekjoon/01_BOJ_Step/Step07/05_1157.cpp) | 
+| [06. 직사각형에서 탈출](https://www.acmicpc.net/problem/1152) | [cpp](01_baekjoon/01_BOJ_Step/Step07/06_1152.cpp) |
+| [07. 네 번째 점](https://www.acmicpc.net/problem/2908) | [cpp](01_baekjoon/01_BOJ_Step/Step07/07_2908.cpp) |
+| [08. 직각삼각형](https://www.acmicpc.net/problem/5622) | [cpp](01_baekjoon/01_BOJ_Step/Step07/08_5622.cpp) | 
+| [09. 택시 기하학](https://www.acmicpc.net/problem/2941) | [cpp](01_baekjoon/01_BOJ_Step/Step07/09_2941.cpp) |
+| [10. 터렛](https://www.acmicpc.net/problem/1316) | [cpp](01_baekjoon/01_BOJ_Step/Step07/10_1316.cpp) |  
 </details>
