@@ -13,7 +13,7 @@ using namespace std;
 
 const int MAX = 101;
 int Map[MAX][MAX];
-int visit[MAX][MAX];
+//int visit[MAX][MAX];
 int N, ans;
 int sx, sy;//시작점
 int dx[] = { 1,0,-1,0 };
@@ -42,30 +42,40 @@ void process(int y, int x, int dir, int cnt) {
 	int ny = y + dy[dir], nx = x + dx[dir];
 
 	int num = Map[ny][nx]; // 웜홀 번호 ,블럭 번호, 빈 공간, 블랙홀
-	if (isRange(ny, nx)) {
-		if (num == -1 || (ny == sy && nx == sx)) {	//종료 조건 처리
-			ans = max(cnt, ans);
-			return;
-		}
-		else if (num >= 6 && num <= 10) {		// 웜홀 조건 처리
 
-			int wy, wx; //다음 웜홀 좌표
-			if (ny == wormhole[num - 6][0].first && nx == wormhole[num - 6][0].second)
-				wy = wormhole[num - 6][1].first, wx = wormhole[num - 6][1].second;
-			else
-				wy = wormhole[num - 6][0].first, wx = wormhole[num - 6][0].second;
-			process(wy, wx, dir, cnt);
-		}
-		else if (num < 6 && num > 0) {		//블럭 조건 처리
-			dir = convDir[num][dir];	//블럭에 따라 방향 변환
-			process(ny, nx, dir, cnt + 1);	//점수 + 1
-		}
-		else if (num == 0) {
-			process(ny, nx, dir, cnt);
-		}
+	/*if (!num) {
+		visit[y][x] = 1;
 	}
 	else {
+		visit[y][x] = cnt;
+	}*/
+
+	if (!isRange(ny, nx)) {		//벽을 만나면 왔던길을 다시 되돌아 가기 때문에 현재 점수*2 +1
 		cnt = cnt * 2 + 1;
+		ans = max(cnt, ans);
+		return;
+	}
+	else if (ny == sy && nx == sx) {	// 시작점으로 돌아온다면
+		ans = max(cnt, ans);
+		return;
+	}
+	else if (!num) {	// 빈 공간 이라면
+		process(ny, nx, dir, cnt);
+	}
+	else if (num > 0 && num < 6) {		//블럭 조건 처리
+		dir = convDir[num][dir];	//블럭에 따라 방향 변환
+		process(ny, nx, dir, cnt + 1);	//점수 + 1
+	}
+	else if (num >= 6 && num <= 10) {		// 웜홀 조건 처리
+
+		int wy, wx; //다음 웜홀 좌표
+		if (ny == wormhole[num - 6][0].first && nx == wormhole[num - 6][0].second)
+			wy = wormhole[num - 6][1].first, wx = wormhole[num - 6][1].second;
+		else
+			wy = wormhole[num - 6][0].first, wx = wormhole[num - 6][0].second;
+		process(wy, wx, dir, cnt);
+	}
+	else if (num == -1) {		//블랙홀이라면
 		ans = max(cnt, ans);
 		return;
 	}
@@ -73,8 +83,8 @@ void process(int y, int x, int dir, int cnt) {
 void solution() {
 	for (int i = 1; i <= N; i++) {
 		for (int j = 1; j <= N; j++) {
-			sy = i, sx = j;	//시작점 저장
-			if (!Map[i][j]) {
+			if (Map[i][j] == 0) {
+				sy = i, sx = j;	//시작점 저장
 				process(i, j, 0, 0);
 				process(i, j, 1, 0);
 				process(i, j, 2, 0);
@@ -87,7 +97,6 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	freopen("swea_5650.in", "r", stdin);
-
 	int tc; cin >> tc;
 	for (int t = 1; t <= tc; t++) {
 		cin >> N;
