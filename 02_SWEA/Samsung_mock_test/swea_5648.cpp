@@ -12,7 +12,7 @@ using namespace std;
 const int MAX = 4001;
 int Map[MAX][MAX];
 int ans;
-int dx[] = { 0,0,1,-1 };// 상하좌우
+int dx[] = { 0,0,-1,1 };// 상하좌우
 int dy[] = { 1,-1,0,0 };
 struct Atom {
 	int x, y, dir, k;		// 원자의 위치, 방향, 보유 에너지
@@ -23,26 +23,25 @@ vector<Atom> atom;
 bool isRange(int y, int x) { return x >= 0 && x <= 4000 && y >= 0 && y <= 4000; }
 void solution() {
 	while (!atom.empty()) {
+		//해당 원자들을 한 칸씩 모두 움직여 준다
 		for (int i = 0; i < atom.size(); i++) {
 			int dir = atom[i].dir;
 			int cury = atom[i].y, curx = atom[i].x;
 			int ny = atom[i].y + dy[dir], nx = atom[i].x + dx[dir];
-
+			Map[cury][curx] = 0; //현재 좌표에 원자가 있었다면 다음 좌표로 움직여줘야하므로 없애준다.
 			if (isRange(ny, nx)) {
 				atom[i].y = ny;
 				atom[i].x = nx;
 				Map[ny][nx] += atom[i].k;
-				//Map[cury][curx] = 0;
 			}
 			else atom[i].k = 0;// 다음 좌표가 범위를 벗어나면 원자 소멸
 		}
 		for (int i = 0; i < atom.size(); i++) {
 			int cury = atom[i].y, curx = atom[i].x;
-			if (atom[i].k != 0) {								// 소멸되지 않은 원자라면
+			if (atom[i].k != 0) {								// 범위를 벗어나지 않은 원자라면
 				if (Map[cury][curx] != atom[i].k) {			// 충돌 검사
 					ans += Map[cury][curx];
 					Map[cury][curx] = 0;
-					//atom.erase(atom.begin() + i);
 					atom[i].k = 0;
 				}
 			}
