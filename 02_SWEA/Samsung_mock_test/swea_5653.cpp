@@ -42,17 +42,17 @@ void solution() {
 			cur.life--;	// 생명력 감소
 			if (!cur.life) {
 				Map[cur.y][cur.x] = -1;	// 죽은 세포
-				//v.erase(v.begin() + i);
-				cur.life = -1;
+				v.erase(v.begin() + i);
+				//cur.life = -1;
 				v[i] = cur;
 			}
 			else v[i] = cur;
 		}
-		vector<Cell> tmp = v;
+		/*vector<Cell> tmp = v;
 		v.clear();
 		for (int i = 0; i < tmp.size(); i++) {
 			if (tmp[i].life != -1)v.push_back(tmp[i]);
-		}
+		}*/
 		time++;
 	}
 	for (auto a : v) {
