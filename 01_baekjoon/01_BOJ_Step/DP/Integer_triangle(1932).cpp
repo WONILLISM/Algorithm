@@ -14,7 +14,7 @@ using namespace std;
 int T[500][500];
 int dp[500][500];
 int Max, N;
-//n:높이 idx: 높이의 행
+//n:높이 idx: 높이의 열
 int process(int n, int idx) {
 	if (idx < 0)return 0;
 	if (n == 0)return dp[0][0] = T[0][0];
@@ -36,7 +36,7 @@ int process(int n, int idx) {
 			else if (i == n) {
 				dp[n][i] = a + T[n][i];
 			}
-			if (Max < dp[n][i])Max = dp[n][i];
+			Max = max(Max,dp[n][i]);
 		}
 		return dp[n][idx];
 	}
