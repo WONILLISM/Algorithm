@@ -10,7 +10,7 @@
 | [03. 고양이](https://www.acmicpc.net/problem/10171) | [cpp](01_baekjoon/01_BOJ_Step/Step01/03_10171.cpp) |  [03. 윤년](https://www.acmicpc.net/problem/2753) | [cpp](01_baekjoon/01_BOJ_Step/Step02/03_2753.cpp) |
 | [04. 개](https://www.acmicpc.net/problem/10172) | [cpp](01_baekjoon/01_BOJ_Step/Step01/04_10172.cpp) |  [04. 알람 시계](https://www.acmicpc.net/problem/2884) | [cpp](01_baekjoon/01_BOJ_Step/Step02/04_2884.cpp) |
 | [05. A+B](https://www.acmicpc.net/problem/1000) | [cpp](01_baekjoon/01_BOJ_Step/Step01/05_1000.cpp) |  [05. 세 수](https://www.acmicpc.net/problem/10817) | [cpp](01_baekjoon/01_BOJ_Step/Step02/05_10817.cpp) |
-| [06. A-B](https://www.acmicpc.net/problem/1001) | [cpp](01_baekjoon/01_BOJ_Step/Step01/06_1001.cpp) |  |  |
+| [06. A-B](https://www.acmicpc.net/problem/1001) | [cpp](01_baekjoon/01_BOJ_Step/Step01/06_1001.cpp) | [06. 사분면 고르기](https://www.acmicpc.net/problem/14681) |  |
 | [07. AxB](https://www.acmicpc.net/problem/10998) | [cpp](01_baekjoon/01_BOJ_Step/Step01/07_10998.cpp) |  |  |
 | [08. A/B](https://www.acmicpc.net/problem/1008) | [cpp](01_baekjoon/01_BOJ_Step/Step01/08_1008.cpp) |  |  |
 | [09. 사칙연산](https://www.acmicpc.net/problem/10869) | [cpp](01_baekjoon/01_BOJ_Step/Step01/09_10869.cpp) |  |  |
