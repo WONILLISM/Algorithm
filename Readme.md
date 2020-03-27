@@ -96,3 +96,14 @@
 |[03. 별 찍기 - 10](https://www.acmicpc.net/problem/2447) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_03_2447.cpp) | | |
 |[04. 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_04_11729.cpp) | | |
 </details>
+
+<details>  
+<summary> STEP13 / STEP14 </summary>  
+
+| STEP13 | CODE | STEP14 | CODE |
+|-----------------------|------|-----------------------|------|  
+|[01. 블랙잭](https://www.acmicpc.net/problem/2798) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_01_2798.cpp) | | |
+|[02. 분해합](https://www.acmicpc.net/problem/2231) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_02_2231.cpp) | | |
+|[03. 덩치](https://www.acmicpc.net/problem/7568) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_03_7568.cpp) | | |
+|[04. 체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_04_1018.cpp) | | |
+|[05. 영화감독 숌](https://www.acmicpc.net/problem/1436) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_05_1436.cpp) | | |
