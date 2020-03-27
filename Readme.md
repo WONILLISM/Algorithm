@@ -90,8 +90,9 @@
 <summary> STEP11 / STEP12 </summary>  
 
 | STEP11 | CODE | STEP12 | CODE |
+|-----------------------|------|-----------------------|------|
 |[01.  팩토리얼](https://www.acmicpc.net/problem/10872) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_01_10872.cpp) | | |
 |[02. 피보나치 수 5](https://www.acmicpc.net/problem/10870) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_02_10870.cpp) | | |
-|[03. 별 찍기 - 10](https://www.acmicpc.net/problem/2447) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_03_2447.cpp) || |
+|[03. 별 찍기 - 10](https://www.acmicpc.net/problem/2447) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_03_2447.cpp) | | |
 |[04. 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step11(Recursion)/Step11_04_11729.cpp) | | |
 </details>
