@@ -5,7 +5,7 @@
 
 | STEP01 | CODE | STEP02 | CODE |
 |-----------------------|------|-----------------------|------|
-| [01. Hello World](https://www.acmicpc.net/problem/2557)| [cpp](01_baekjoon/01_BOJ_Step/Steps/Steps/Step01(InputOutput)/Step01_01_2557.cpp) | [01. 두 수 비교하기](https://www.acmicpc.net/problem/1330) | [cpp](01_baekjoon/01_BOJ_Step/Step02/01_1330.cpp) |
+| [01. Hello World](https://www.acmicpc.net/problem/2557)| [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step01(InputOutput)/Step01_01_2557.cpp) | [01. 두 수 비교하기](https://www.acmicpc.net/problem/1330) | [cpp](01_baekjoon/01_BOJ_Step/Step02/01_1330.cpp) |
 | [02. We love Kriii](https://www.acmicpc.net/problem/10718)| [cpp](01_baekjoon/01_BOJ_Step/Step01/02_10718.cpp) |  [02. 시험 성적](https://www.acmicpc.net/problem/9498) | [cpp](01_baekjoon/01_BOJ_Step/Step02/02_9498.cpp) |
 | [03. 고양이](https://www.acmicpc.net/problem/10171) | [cpp](01_baekjoon/01_BOJ_Step/Step01/03_10171.cpp) |  [03. 윤년](https://www.acmicpc.net/problem/2753) | [cpp](01_baekjoon/01_BOJ_Step/Step02/03_2753.cpp) |
 | [04. 개](https://www.acmicpc.net/problem/10172) | [cpp](01_baekjoon/01_BOJ_Step/Step01/04_10172.cpp) |  [04. 알람 시계](https://www.acmicpc.net/problem/2884) | [cpp](01_baekjoon/01_BOJ_Step/Step02/04_2884.cpp) |
