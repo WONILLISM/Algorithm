@@ -19,9 +19,13 @@ void solution() {
 		}
 	}
 	for (auto a : Rank)
-		cout << a << endl;
+		cout << a << " ";
+	cout << endl;
 }
 int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+
 	cin >> N;
 	for (int i = 0; i < N; i++) {
 		int x, y;
