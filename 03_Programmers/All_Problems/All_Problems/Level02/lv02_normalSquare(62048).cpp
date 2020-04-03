@@ -14,7 +14,7 @@ ll gcd(ll a, ll b) {	// 최대공약수 구하기
 	return a;
 }
 long long solution(int w, int h){
-	ll answer = w * h;
+	ll answer = (ll)w * (ll)h;
 	int GCD = gcd(w, h);
 	return answer - (w + h - GCD);
 }
