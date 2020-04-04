@@ -102,8 +102,8 @@
 
 | STEP13 | CODE | STEP14 | CODE |
 |-----------------------|------|-----------------------|------|  
-|[01. 블랙잭](https://www.acmicpc.net/problem/2798) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_01_2798.cpp) | | |
-|[02. 분해합](https://www.acmicpc.net/problem/2231) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_02_2231.cpp) | | |
-|[03. 덩치](https://www.acmicpc.net/problem/7568) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_03_7568.cpp) | | |
-|[04. 체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_04_1018.cpp) | | |
-|[05. 영화감독 숌](https://www.acmicpc.net/problem/1436) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step12_05_1436.cpp) | | |
+|[01. 블랙잭](https://www.acmicpc.net/problem/2798) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step13_01_2798.cpp) | | |
+|[02. 분해합](https://www.acmicpc.net/problem/2231) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step13_02_2231.cpp) | | |
+|[03. 덩치](https://www.acmicpc.net/problem/7568) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step13_03_7568.cpp) | | |
+|[04. 체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step13_04_1018.cpp) | | |
+|[05. 영화감독 숌](https://www.acmicpc.net/problem/1436) |[cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step13(BruteForceSearch)/Step13_05_1436.cpp) |[](./01_baekjoon/01_BOJ_Step/Steps/Steps//Step13) | |
