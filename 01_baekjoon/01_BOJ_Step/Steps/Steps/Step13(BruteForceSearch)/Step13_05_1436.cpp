@@ -1,28 +1,33 @@
-#include<iostream>
-#include<string>
-#include<vector>
+#include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
 int N;
-int solution() {
+int solution()
+{
 	int answer = 666;
-	while (1) {
+	while (1)
+	{
 		string num = to_string(answer);
-		for (int i = 0; i < num.size()-2; i++) {
+		for (int i = 0; i < num.size() - 2; i++)
+		{
 			string tmp = num.substr(i, 3);
-			if (tmp == "666") {
+			if (tmp == "666")
+			{
 				N--;
-				if (!N)return answer;
-				break;
+				if (!N)
+					return answer;
+				break;l
 			}
 		}
 		answer++;
 	}
-
 	return answer;
 }
-int main() {
+int main()
+{
 	cin >> N;
 	cout << solution() << endl;
 	return 0;
