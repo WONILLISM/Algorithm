@@ -41,12 +41,12 @@
 
 | STEP05 | CODE | STEP06 | CODE |
 |-----------------------|------|-----------------------|------|
-| | | [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_01_10818.cpp) | 
-| | | [02. 최댓값](https://www.acmicpc.net/problem/2562) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_02_2562.cpp) |
-| | | [03. 음계](https://www.acmicpc.net/problem/2920) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_03_2920.cpp) | 
-| | | [04. 숫자의 개수](https://www.acmicpc.net/problem/2577) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_04_2577.cpp) |
-| | | [05. 나머지](https://www.acmicpc.net/problem/3052) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_05_3052.cpp) |
-| | | [06. 평균](https://www.acmicpc.net/problem/1546) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_06_1546.cpp) |
+| [01. 평균 점수](https://www.acmicpc.net/problem/10039) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step05(practice01)/Step05_01_10039.cpp)| [01. 최소 최대](https://www.acmicpc.net/problem/10818) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_01_10818.cpp) | 
+| [02. 상근날드](https://www.acmicpc.net/problem/5543) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step05(practice01)/Step05_02_5543.cpp) | [02. 최댓값](https://www.acmicpc.net/problem/2562) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_02_2562.cpp) |
+| [03. 세 수](https://www.acmicpc.net/problem/10817) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step05(practice01)/Step05_03_10817.cpp) | [03. 음계](https://www.acmicpc.net/problem/2920) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_03_2920.cpp) | 
+| [04. 별 찍기 - 13](https://www.acmicpc.net/problem/2523) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step05(practice01)/Step05_04_2523.cpp) | [04. 숫자의 개수](https://www.acmicpc.net/problem/2577) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_04_2577.cpp) |
+| [05. 별 찍기 - 9](https://www.acmicpc.net/problem/2446) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step05(practice01)/Step05_05_2446.cpp) | [05. 나머지](https://www.acmicpc.net/problem/3052) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_05_3052.cpp) |
+| [06. 별 찍기 - 21](https://www.acmicpc.net/problem/10996) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step05(practice01)/Step05_06_10996.cpp)| [06. 평균](https://www.acmicpc.net/problem/1546) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_06_1546.cpp) |
 | | | [07. OX 퀴즈](https://www.acmicpc.net/problem/8958) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_07_8958.cpp) |
 | | | [08. 평균은 넘겠지](https://www.acmicpc.net/problem/4344) | [cpp](./01_baekjoon/01_BOJ_Step/Steps/Steps/Step06(1DArray)/Step06_08_4344.cpp) |
 </details>  
