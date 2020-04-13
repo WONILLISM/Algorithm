@@ -2,7 +2,6 @@
 
 using namespace std;
 
-int ABS(int x) { return x > 0 ? x : -x; }
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
