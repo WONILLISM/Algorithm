@@ -1,52 +1,27 @@
-#include<iostream>
-#include<algorithm>
-#include<vector>
-#include<set>
-#include<unordered_set>
-#define endl '\n'
-using namespace std;
-vector<int> v;
-vector<int> tmp;
-void process(int start, int end) {
+#include<cstdio>
+int D[1000000];
+int Tmp[1000000];
+void MergeSort(int start, int end, int *data) {
 	int i = start;
-	int mid = (start + end) / 2;
-	int j = mid + 1;
-
-	int tmp_idx = start;
-
+	int k = start;
+	int m = (start + end) / 2;
+	int j = m + 1;
 	if (start >= end)return;
-	while (i <= mid && j <= end) {
-		if (v[i] < v[j])tmp[tmp_idx++] = v[i++];
-		else tmp[tmp_idx++] = v[j++];
+	MergeSort(start, m, data);
+	MergeSort(m + 1, end, data);
+	while ((i <= m) && (j <= end)) {
+		if (data[i] < data[j])Tmp[k++] = data[i++];
+		else Tmp[k++] = data[j++];
 	}
-	while (i <= mid)tmp[tmp_idx++] = v[i++];
-	while (j <= end)tmp[tmp_idx++] = v[j++];
-	for (i = start; i < end; i++)v[i] = tmp[i];
+	while (i <= m)Tmp[k++] = data[i++];
+	while (j <= end)Tmp[k++] = data[j++];
+	for (i = start; i <= end; i++)data[i] = Tmp[i];
 }
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	int n; cin >> n;
-	v.assign(n + 1, 0);
-	for (int i = 0; i < n; i++)
-		cin >> v[i];
-	
-	tmp.assign(v.size(), 0);
-	process(0, v.size() - 1);
-
-	bool chk = false;
-	for (int i = 0; i < v.size(); i++) {
-		if (!chk) {
-			chk = true;
-			cout << v[i] << endl;
-		}
-		else {
-			if (v[i - 1] != v[i])chk = false;
-			if (!chk) {
-				chk = true;
-				cout << v[i] << endl;
-			}
-		}
-	}
+	int n;
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++)scanf("%d", &D[i]);
+	MergeSort(0, n - 1, D);
+	for (int i = 0; i < n; i++)printf("%d\n", D[i]);
 	return 0;
 }

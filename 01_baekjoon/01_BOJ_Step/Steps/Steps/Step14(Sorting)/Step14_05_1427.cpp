@@ -1,34 +1,17 @@
-#include <iostream>
-#include <string>
-#include <vector>
-
+#include<iostream>
+#include<string>
+#include<algorithm>
 using namespace std;
 
-int N;
-int solution()
-{
-	int answer = 666;
-	while (1)
-	{
-		string num = to_string(answer);
-		for (int i = 0; i < num.size() - 2; i++)
-		{
-			string tmp = num.substr(i, 3);
-			if (tmp == "666")
-			{
-				N--;
-				if (!N)
-					return answer;
-				break;
-			}
-		}
-		answer++;
-	}
-	return answer;
-}
-int main()
-{
-	cin >> N;
-	cout << solution() << endl;
+bool comp(char a, char b) { return a > b; }
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
+	string s;
+	cin >> s;
+	sort(s.begin(), s.end(), comp);
+	cout << s;
 	return 0;
 }

@@ -1,68 +1,34 @@
 #include<cstdio>
-#include<iostream>
-#include<vector>
-#include<string>
-#include<queue>
-#include<deque>
 #include<algorithm>
-#define endl '\n';
-#define ll long long
-#define PII pair<int,int>
-
 using namespace std;
-
-const int MAX = 51;
-char board[MAX][MAX];
-int visit[MAX][MAX];
-int N, M, sx, sy, ans = 32;
-
-int dx[] = { 1,0 }, dy[] = { 0,1 };
-
-string white[8] = {
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" }
-};
-string black[8] = {
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" },
-		{ "BWBWBWBW" },
-		{ "WBWBWBWB" }
-};
-void process(int y, int x) {
-	int cntW = 0, cntB = 0;
-	for (int i = 0; i < 8; i++) {
-		for (int j = 0; j < 8; j++) {
-			if (white[i][j] != board[y + i][x + j])cntW++;
-			if (black[i][j] != board[y + i][x + j])cntB++;
-		}
-	}
-	ans = min(ans, min(cntW,cntB));
-}
-void solution() {
-	for (int i = 0; i < N - 7; i++) {
-		for (int j = 0; j < M - 7; j++) {
-			process(i, j);
-		}
-	}
-	cout << ans << endl;
-}
+int Num[500000];
+int Tmp[500000];
+int Cnt[8001];
+int Max;
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
-
-	cin >> N >> M;
-	for (int i = 0; i < N; i++)
-		cin >> board[i];
-	solution();
+	int n, sum = 0;
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++) {
+		scanf("%d", &Num[i]);
+		sum += Num[i];
+		Cnt[Num[i] + 4000]++;
+		if (Max < Cnt[Num[i] + 4000])Max = Cnt[Num[i] + 4000];
+	}
+	sort(Num, Num + n);
+	int j = 0, frq;
+	for (int i = 0; i < 8001; i++) {
+		if (Cnt[i] == Max) {
+			frq = i - 4000;
+			j++;
+			if (j == 2) {
+				frq = i - 4000;
+				break;
+			}
+		}
+	}
+	printf("%.0f\n", sum / (double)n);
+	printf("%d\n", Num[n / 2]);
+	printf("%d\n", frq);
+	printf("%d\n", Num[n - 1] - Num[0]);
 	return 0;
 }
