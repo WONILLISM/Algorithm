@@ -7,25 +7,27 @@ def solution(office, r, c, move):
     dy = [0,1,0,-1]
 
     queue = []
-
+    answer+=office[r][c]
+    office[r][c] = 0
     queue.append([r,c])
-    answer += office[r][c]
     dir = 3
     for cmd in move:
         cur = queue.pop(0)
-
         if cmd == "go":
             next = [(cur[0] + dy[dir]), cur[1] + dx[dir]]
         elif cmd=="right":
             dir = (dir+1)%4
+            next = cur
         elif cmd=="left":
             dir = (dir+3)%4
+            next = cur
 
         if next[0]>=0 and next[0]<N and next[1]>=0 and next[1]<M:
             if office[next[0]][next[1]]>-1:
                 answer+=office[next[0]][next[1]]
                 office[next[0]][next[1]] = 0
-            queue.append(next)
+                queue.append(next)
+            else: queue.append(cur)
         else: queue.append(cur)
     return answer
 
