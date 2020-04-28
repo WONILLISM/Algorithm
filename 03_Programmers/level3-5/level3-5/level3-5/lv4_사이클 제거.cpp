@@ -43,6 +43,7 @@ int solution(int n, vector<vector<int>> edges) {
 	Graph = makeGraph(n, edges);
 	vector<int> tmp;
 	for (int i = 1; i < Graph.size(); i++) {
+		tmp.push_back(0);
 		for (int j = 1; j < Graph[i].size(); j++) {
 			tmp.push_back(Graph[i][j]);
 			Graph[i][j] = 0;
